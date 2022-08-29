@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:usock_project/screens/navigate/community.dart';
 import 'package:usock_project/screens/navigate/personal_data.dart';
 import 'package:usock_project/utils/colors.dart';
 
@@ -36,6 +37,7 @@ class _ProfileState extends State<Profile> {
                               fit: BoxFit.fill)),
                     ),
                     Padding(
+                      
                       padding: const EdgeInsets.symmetric(horizontal: 8.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -176,6 +178,10 @@ class _ProfileState extends State<Profile> {
                       style: TextStyle(
                           fontWeight: FontWeight.w600,
                           color: Color(0XFF395878))),
+                  onTap: (() {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) => const Community()));
+                  }),
                   leading: Container(
                       height: 30,
                       width: 30,
@@ -194,7 +200,7 @@ class _ProfileState extends State<Profile> {
                 // ignore: sized_box_for_whitespace
                 child: Container(
                   height: 60,
-                  width: 600,
+                  width: 500,
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 220, 234, 241),
                     borderRadius: BorderRadius.circular(10),

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:usock_project/screens/homepage.dart';
 
 import '../../utils/colors.dart';
-import '../pages/profile.dart';
+
 
 class Community extends StatefulWidget {
   const Community({Key? key}) : super(key: key);
@@ -25,7 +26,7 @@ class _CommunityState extends State<Community> {
               ),
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const Profile()));
+                    MaterialPageRoute(builder: (_) => const HomePage()));
               },
             ),
             title: Center(

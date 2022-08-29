@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:usock_project/screens/pages/profile.dart';
+import 'package:usock_project/screens/homepage.dart';
 import 'package:usock_project/utils/colors.dart';
 import 'dart:async';
 
@@ -51,7 +51,7 @@ class _PersonalDataState extends State<PersonalData> {
           ),
           onPressed: () {
             Navigator.push(
-                context, MaterialPageRoute(builder: (_) => const Profile()));
+                context, MaterialPageRoute(builder: (_) => const HomePage()));
           },
         ),
         title: Center(

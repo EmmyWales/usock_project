@@ -215,9 +215,11 @@ class _PersonalDataState extends State<PersonalData> {
                     });
                   },
                   decoration: const InputDecoration(
-                      focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(color: Color(0XFFB4C1CC))), enabledBorder:UnderlineInputBorder(
-                        borderSide: BorderSide(color: Color(0XFFB4C1CC))), ),
+                    focusedBorder: OutlineInputBorder(
+                        borderSide: BorderSide(color: Color(0XFFB4C1CC))),
+                    enabledBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(color: Color(0XFFB4C1CC))),
+                  ),
                 ),
                 const SizedBox(
                   height: 20,
@@ -236,9 +238,14 @@ class _PersonalDataState extends State<PersonalData> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      height: 50,
-                      width: 100,
-                      color: const Color.fromARGB(255, 220, 234, 241),
+                      height: 60,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 220, 234, 241),
+                        border: Border.all(color: AppColor.txtblue),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(10.0)),
+                      ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: const [
@@ -256,9 +263,14 @@ class _PersonalDataState extends State<PersonalData> {
                       width: 10,
                     ),
                     Container(
-                      height: 50,
-                      width: 100,
-                      color: const Color.fromARGB(255, 220, 234, 241),
+                      height: 60,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 220, 234, 241),
+                        border: Border.all(color: AppColor.txtblue),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(10.0)),
+                      ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: const [
@@ -273,7 +285,8 @@ class _PersonalDataState extends State<PersonalData> {
                           )
                         ],
                       ),
-                    )
+                    ),
+                    
                   ],
                 )
               ],

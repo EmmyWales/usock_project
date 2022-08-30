@@ -3,7 +3,6 @@ import 'package:usock_project/screens/homepage.dart';
 
 import '../../utils/colors.dart';
 
-
 class Community extends StatefulWidget {
   const Community({Key? key}) : super(key: key);
 
@@ -55,6 +54,7 @@ class _CommunityState extends State<Community> {
                 const SizedBox(
                   height: 20,
                 ),
+                
                 Container(
                   height: 50,
                   width: 1000,
@@ -62,7 +62,8 @@ class _CommunityState extends State<Community> {
                       border: Border.all(
                         color: AppColor.txtblue,
                       ),
-                      borderRadius: const BorderRadius.all(Radius.circular(10.0)),
+                      borderRadius:
+                          const BorderRadius.all(Radius.circular(10.0)),
                       color: const Color(0XFFB4C1CC)),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -83,7 +84,7 @@ class _CommunityState extends State<Community> {
                   height: 20,
                 ),
                 Container(
-                  height: 150,
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -162,21 +163,27 @@ class _CommunityState extends State<Community> {
                               width: 30,
                               decoration: BoxDecoration(
                                 border: Border.all(
-                                  color: const Color.fromARGB(255, 168, 167, 167),
+                                  color:
+                                      const Color.fromARGB(255, 168, 167, 167),
                                 ),
-                                borderRadius:
-                                    const BorderRadius.all(Radius.circular(10.0)),
+                                borderRadius: const BorderRadius.all(
+                                    Radius.circular(10.0)),
                               ),
                               child: Row(
                                 children: const [
                                   Text(
                                     " + 69 ",
-                                    style: TextStyle(fontSize: 10, color: Color.fromARGB(255, 152, 147, 147),),
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Color.fromARGB(255, 152, 147, 147),
+                                    ),
                                   )
                                 ],
                               ),
                             ),
-                            const SizedBox(width: 50,),
+                            const SizedBox(
+                              width: 20,
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -192,9 +199,11 @@ class _CommunityState extends State<Community> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20,),
-                 Container(
-                  height: 150,
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -229,7 +238,7 @@ class _CommunityState extends State<Community> {
                         ),
                         Row(
                           children: [
-                             Container(
+                            Container(
                               height: 35,
                               width: 30,
                               decoration: const BoxDecoration(
@@ -265,30 +274,32 @@ class _CommunityState extends State<Community> {
                             const SizedBox(
                               width: 10,
                             ),
-                           
-                            const SizedBox(
-                              width: 10,
-                            ),
                             Container(
                               height: 35,
                               width: 30,
                               decoration: BoxDecoration(
                                 border: Border.all(
-                                  color: const Color.fromARGB(255, 168, 167, 167),
+                                  color:
+                                      const Color.fromARGB(255, 168, 167, 167),
                                 ),
-                                borderRadius:
-                                    const BorderRadius.all(Radius.circular(10.0)),
+                                borderRadius: const BorderRadius.all(
+                                    Radius.circular(10.0)),
                               ),
                               child: Row(
                                 children: const [
                                   Text(
                                     " + 69 ",
-                                    style: TextStyle(fontSize: 10, color: Color.fromARGB(255, 152, 147, 147),),
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Color.fromARGB(255, 152, 147, 147),
+                                    ),
                                   )
                                 ],
                               ),
                             ),
-                            const SizedBox(width: 50,),
+                            const SizedBox(
+                              width: 30,
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -304,9 +315,11 @@ class _CommunityState extends State<Community> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20,),
-                 Container(
-                  height: 150,
+                const SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -341,7 +354,7 @@ class _CommunityState extends State<Community> {
                         ),
                         Row(
                           children: [
-                             Container(
+                            Container(
                               height: 35,
                               width: 30,
                               decoration: const BoxDecoration(
@@ -377,30 +390,32 @@ class _CommunityState extends State<Community> {
                             const SizedBox(
                               width: 10,
                             ),
-                           
-                            const SizedBox(
-                              width: 10,
-                            ),
                             Container(
                               height: 35,
                               width: 30,
                               decoration: BoxDecoration(
                                 border: Border.all(
-                                  color: const Color.fromARGB(255, 168, 167, 167),
+                                  color:
+                                      const Color.fromARGB(255, 168, 167, 167),
                                 ),
-                                borderRadius:
-                                    const BorderRadius.all(Radius.circular(10.0)),
+                                borderRadius: const BorderRadius.all(
+                                    Radius.circular(10.0)),
                               ),
                               child: Row(
                                 children: const [
                                   Text(
                                     " + 69 ",
-                                    style: TextStyle(fontSize: 10, color: Color.fromARGB(255, 152, 147, 147),),
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      color: Color.fromARGB(255, 152, 147, 147),
+                                    ),
                                   )
                                 ],
                               ),
                             ),
-                            const SizedBox(width: 50,),
+                            const SizedBox(
+                              width: 30,
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(

@@ -180,9 +180,6 @@ class _CommunityState extends State<Community> {
                                 ],
                               ),
                             ),
-                            const SizedBox(
-                              width: 50,
-                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -296,9 +293,6 @@ class _CommunityState extends State<Community> {
                                 ],
                               ),
                             ),
-                            const SizedBox(
-                              width: 50,
-                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -411,9 +405,6 @@ class _CommunityState extends State<Community> {
                                   )
                                 ],
                               ),
-                            ),
-                            const SizedBox(
-                              width: 50,
                             ),
                             TextButton(
                               onPressed: () {},

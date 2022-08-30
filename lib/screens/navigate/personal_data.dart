@@ -215,6 +215,7 @@ class _PersonalDataState extends State<PersonalData> {
                     });
                   },
                   decoration: const InputDecoration(
+                    fillColor:  Color(0XFFB4C1CC) ,
                     focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Color(0XFFB4C1CC))),
                     enabledBorder: UnderlineInputBorder(
@@ -263,6 +264,7 @@ class _PersonalDataState extends State<PersonalData> {
                       width: 10,
                     ),
                     Container(
+                      
                       height: 60,
                       width: 150,
                       decoration: BoxDecoration(

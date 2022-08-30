@@ -83,7 +83,7 @@ class _CommunityState extends State<Community> {
                   height: 20,
                 ),
                 Container(
-                  height: 150,
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -180,6 +180,9 @@ class _CommunityState extends State<Community> {
                                 ],
                               ),
                             ),
+                            const SizedBox(
+                              width: 20,
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -199,7 +202,7 @@ class _CommunityState extends State<Community> {
                   height: 20,
                 ),
                 Container(
-                  height: 150,
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -293,6 +296,9 @@ class _CommunityState extends State<Community> {
                                 ],
                               ),
                             ),
+                            const SizedBox(
+                              width: 30,
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Row(
@@ -312,7 +318,7 @@ class _CommunityState extends State<Community> {
                   height: 20,
                 ),
                 Container(
-                  height: 150,
+                  height: 200,
                   width: 1000,
                   decoration: BoxDecoration(
                     border: Border.all(
@@ -405,6 +411,9 @@ class _CommunityState extends State<Community> {
                                   )
                                 ],
                               ),
+                            ),
+                            const SizedBox(
+                              width: 30,
                             ),
                             TextButton(
                               onPressed: () {},
